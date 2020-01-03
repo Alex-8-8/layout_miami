@@ -78,7 +78,8 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 250px; }
+  margin-bottom: 250px;
+  letter-spacing: 2px; }
   .top-header__item {
     position: relative; }
   .top-header__link {
