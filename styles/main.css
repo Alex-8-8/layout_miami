@@ -238,7 +238,7 @@ h1 {
     background: #f7f8ff;
     border: 1px solid #fff;
     border-radius: 8px;
-    padding-left: 17px;
+    padding: 0 17px;
     margin-bottom: 16px; }
     .consultation-form__name::-webkit-input-placeholder, .consultation-form__phone::-webkit-input-placeholder, .consultation-form__email::-webkit-input-placeholder {
       font-size: 14px;
@@ -379,7 +379,7 @@ h1 {
     background: #f7f8ff;
     border: 1px solid #fff;
     border-radius: 8px;
-    padding-left: 17px;
+    padding: 0 17px;
     margin-bottom: 16px; }
     .contact-form__name::-webkit-input-placeholder, .contact-form__email::-webkit-input-placeholder {
       font-size: 14px;
@@ -401,28 +401,24 @@ h1 {
     background: #f7f8ff;
     border: 1px solid #fff;
     border-radius: 8px;
-    padding: 17px 0 0 17px;
-    resize: none; }
+    padding: 17px;
+    resize: none;
+    font-family: Roboto, sans-serif; }
     .contact-form__message::-webkit-input-placeholder {
       font-size: 14px;
-      color: #b9c1ce;
-      font-family: Roboto, sans-serif; }
+      color: #b9c1ce; }
     .contact-form__message::-moz-placeholder {
       font-size: 14px;
-      color: #b9c1ce;
-      font-family: Roboto, sans-serif; }
+      color: #b9c1ce; }
     .contact-form__message:-ms-input-placeholder {
       font-size: 14px;
-      color: #b9c1ce;
-      font-family: Roboto, sans-serif; }
+      color: #b9c1ce; }
     .contact-form__message::-ms-input-placeholder {
       font-size: 14px;
-      color: #b9c1ce;
-      font-family: Roboto, sans-serif; }
+      color: #b9c1ce; }
     .contact-form__message::placeholder {
       font-size: 14px;
-      color: #b9c1ce;
-      font-family: Roboto, sans-serif; }
+      color: #b9c1ce; }
   .contact-form__btn {
     color: #fff;
     font-size: 16px;
