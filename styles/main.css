@@ -36,6 +36,10 @@ h1 {
 .mobile-nav {
   -webkit-transform: translateY(-100vh);
           transform: translateY(-100vh);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
   position: absolute;
   width: 100vw;
   height: 100vh;
@@ -88,8 +92,7 @@ h1 {
   background-size: cover;
   background-position: center;
   padding: 24px 20px 38px;
-  font-size: 12px;
-  overflow-x: hidden; }
+  font-size: 12px; }
   .header__wrapper {
     max-width: 1260px;
     margin: 0 auto; }
@@ -170,11 +173,7 @@ h1 {
             flex-direction: column; }
   .header-opened .mobile-nav {
     -webkit-transform: translateY(0);
-            transform: translateY(0);
-    -webkit-transition: -webkit-transform 1s;
-    transition: -webkit-transform 1s;
-    transition: transform 1s;
-    transition: transform 1s, -webkit-transform 1s; }
+            transform: translateY(0); }
   .header__title {
     margin-bottom: 120px; }
   .top-header {
@@ -285,7 +284,8 @@ h1 {
     border-radius: 8px;
     font-weight: bold;
     color: #0075ff;
-    background-color: #fff; }
+    background-color: #fff;
+    cursor: pointer; }
     .gallery__btn:hover {
       color: #fff;
       background-color: #0075ff; }
@@ -356,19 +356,14 @@ h1 {
     padding: 0 17px;
     margin-bottom: 16px; }
     .consultation-form__name::-webkit-input-placeholder, .consultation-form__phone::-webkit-input-placeholder, .consultation-form__email::-webkit-input-placeholder {
-      font-size: 14px;
       color: #b9c1ce; }
     .consultation-form__name::-moz-placeholder, .consultation-form__phone::-moz-placeholder, .consultation-form__email::-moz-placeholder {
-      font-size: 14px;
       color: #b9c1ce; }
     .consultation-form__name:-ms-input-placeholder, .consultation-form__phone:-ms-input-placeholder, .consultation-form__email:-ms-input-placeholder {
-      font-size: 14px;
       color: #b9c1ce; }
     .consultation-form__name::-ms-input-placeholder, .consultation-form__phone::-ms-input-placeholder, .consultation-form__email::-ms-input-placeholder {
-      font-size: 14px;
       color: #b9c1ce; }
     .consultation-form__name::placeholder, .consultation-form__phone::placeholder, .consultation-form__email::placeholder {
-      font-size: 14px;
       color: #b9c1ce; }
   .consultation-form__btn {
     color: #fff;
@@ -380,7 +375,8 @@ h1 {
     -webkit-box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
             box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
     background: #0075ff;
-    margin-top: 32px; }
+    margin-top: 32px;
+    cursor: pointer; }
     .consultation-form__btn:hover {
       color: #0075ff;
       background: #fff;
@@ -518,19 +514,14 @@ h1 {
     padding: 0 17px;
     margin-bottom: 16px; }
     .contact-form__name::-webkit-input-placeholder, .contact-form__email::-webkit-input-placeholder {
-      font-size: 14px;
       color: #b9c1ce; }
     .contact-form__name::-moz-placeholder, .contact-form__email::-moz-placeholder {
-      font-size: 14px;
       color: #b9c1ce; }
     .contact-form__name:-ms-input-placeholder, .contact-form__email:-ms-input-placeholder {
-      font-size: 14px;
       color: #b9c1ce; }
     .contact-form__name::-ms-input-placeholder, .contact-form__email::-ms-input-placeholder {
-      font-size: 14px;
       color: #b9c1ce; }
     .contact-form__name::placeholder, .contact-form__email::placeholder {
-      font-size: 14px;
       color: #b9c1ce; }
   .contact-form__message {
     height: 144px;
@@ -541,19 +532,14 @@ h1 {
     resize: none;
     font-family: Roboto, sans-serif; }
     .contact-form__message::-webkit-input-placeholder {
-      font-size: 14px;
       color: #b9c1ce; }
     .contact-form__message::-moz-placeholder {
-      font-size: 14px;
       color: #b9c1ce; }
     .contact-form__message:-ms-input-placeholder {
-      font-size: 14px;
       color: #b9c1ce; }
     .contact-form__message::-ms-input-placeholder {
-      font-size: 14px;
       color: #b9c1ce; }
     .contact-form__message::placeholder {
-      font-size: 14px;
       color: #b9c1ce; }
   .contact-form__btn {
     color: #fff;
@@ -565,7 +551,8 @@ h1 {
     -webkit-box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
             box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
     background: #0075ff;
-    margin-top: 32px; }
+    margin-top: 32px;
+    cursor: pointer; }
     .contact-form__btn:hover {
       color: #0075ff;
       background: #fff;
