@@ -673,6 +673,9 @@ h1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   background: #fff;
   margin: 0;
